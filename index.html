@@ -6,27 +6,85 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Era Retalho</title>
     <style>
-    h1{
-        color:#fff;
-        text-align: center;
+    body{
+        margin: 0px;
+        background-image: url('images/banner.jpg');
+    }
+    header h1{
         background-color: #c20606;
+
+        color:#fff;
+
+        margin: 0px auto;
+        padding: 10px;
+
+        text-align: center;
+    }
+    nav{
+        display: flex;
+        justify-content: center;
+
+        padding: 1em;
+
+        background-color: #c20606;
+    }
+    nav a{
+        background-color: #7b0303;
+
+        margin-left: 1em;
+        border-radius: 6px;
+        padding: 15px;
+
+        vertical-align: middle;
         
+        color: white;
+
+        text-decoration: none;
+    }
+    nav a:hover{
+        background-color: #ca0e0e;
+    }
+
+    main{
+        margin: 30px;
+    }
+    
+    main p{
+        background-color: rgba(255, 255, 255, 0.622);
+        font-size: 24px;
+    }
+
+    main section{
+        width: 80%;
+        margin: auto;
+    }
+    section img{
+        display: block;
+        width: 80%;
+
+        margin: 10px auto;
     }
     </style>
 </head>
-    <body background="banner.jpg">
-    <h1>Era Retalho</h1>
-    <center><a href="email_copiar.html"><button style="background: #c20606; border-radius: 6px; padding: 15px; vertical-align:middle; cursor: pointer; color: #ffffff; border: none; font-size: 16px; float: right">Email</button></a></center>
-    <center><a href="https://www.instagram.com/era__retalho/#"><button style="background: #c20606; border-radius: 6px; padding: 15px; vertical-align:middle; cursor: pointer; color: #ffffff; border: none; font-size: 16px; float: left">Instagram</button></a></center>
-    <center><a href="sobre_min.html"><button style="background: #c20606; border-radius: 6px; padding: 15px; cursor: pointer; color: #ffffff; border: none; font-size: 16px;">Sobre Mim</button></a></center>
-    <p style="color:#000000; font-size: 24px; background-color: #ffffffba;">Este site visa a divulgação dos trabalhos artesanais que venho realizando (bolsas e necessaries). Aqui vocês encontrarão uma pequena amosta de minhas peças, mas a mairoia estaão no meu instagram. </p>
-    <br>
-    </br>
+    <header>
+        <h1>Era Retalho</h1>
+    </header>
 
-    <center><img src="1.png"></center>
-    <br>
-    </br>
-    <center><img src="2.png"></center>
+    <nav>
+        <a href="email_copiar.html">Email</a>
+        <a href="https://www.instagram.com/era__retalho/#" target="_blank">Instagram</a>
+        <a href="sobre_min.html">Sobre Mim</a>
+    </nav>
+
+    <main>
+        <h2>O projeto Era Retalho</h2>
+        <p >Este site visa a divulgação dos trabalhos artesanais que venho realizando (bolsas e necessaries). Aqui vocês encontrarão uma pequena amosta de minhas peças, mas a mairoia estaão no meu instagram. </p>
+
+        <section>
+            <img src="images/bolsa-1.png">
+            <img src="images/bolsa-2.png">
+        </section>
+    </main>
     
 </body>
 </html> 
