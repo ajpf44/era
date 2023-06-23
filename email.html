@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Email</title>
+    <style>            
+        main{
+            background-color: transparent;
+            box-shadow: none;
+            max-width: none;
+        }
+        button{
+            display: block;
+            margin: 0px auto;
+
+            font-size: 300%;
+
+            box-shadow: 0px 0px 2em black;
+
+        }
+        .center {
+            margin: 0;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Era Retalho</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="email.html" class="active">Email</a>
+        <a href="https://www.instagram.com/era__retalho/#" target="_blank">Instagram</a>
+        <a href="sobre.html">Sobre Mim</a>
+    </nav>
+    <main>
+        <button onclick="copiarEmail()" class="center" >Copiar E-mail</button>
+    </main>
+
+    <script>
+        function copiarEmail() {
+            var email = 'mabelmmf55@gmail.com';
+            navigator.clipboard.writeText(email);
+            alert('E-mail copiado!');
+          }
+    </script>
+</body>
+</html>

@@ -1,0 +1,79 @@
+html{
+    background-image: url('images/banner.jpg');
+}
+body{
+    margin: 0px;
+    font-size: 1.2em;
+}
+header h1{
+    background-color: #c20606;
+
+    color:#fff;
+
+    margin: 0px auto;
+    padding: 10px;
+
+    text-align: center;
+}
+nav{
+    display: flex;
+    justify-content: center;
+
+    padding: 1em;
+
+    background-color: #c20606;
+}
+nav a{
+    background-color: #7b0303;
+
+    margin-left: 1em;
+    border-radius: 6px;
+    padding: 15px;
+
+    vertical-align: middle;
+    
+    color: white;
+
+    text-decoration: none;
+}
+nav a:hover{
+    background-color: #ca0e0e;
+}
+nav .active{
+    text-decoration: underline;
+    background-color: #7b0303;
+}
+
+main{
+    background-color: rgba(255, 255, 255);
+    
+    max-width: 60em;
+
+    margin: auto;
+    padding: 2em;
+    box-shadow: 0px 0px 1em black;
+}
+
+main p{    
+    text-align: justify;
+}
+
+main section{
+    width: 80%;
+    margin: auto;
+}
+section img{
+    display: block;
+    width: 80%;
+
+    margin: 10px auto;
+}
+button{
+    background-color: #c20606;
+
+    cursor: pointer;
+    color: white;
+
+    border-radius: 6px;
+    padding: 15px;
+}
